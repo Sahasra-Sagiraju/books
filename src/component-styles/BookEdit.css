@@ -1,0 +1,11 @@
+.book__edit {
+  /* display: none; */
+}
+
+.container {
+  display: flex;
+}
+
+.container > * {
+  border: 2px solid black;
+}

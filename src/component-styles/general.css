@@ -1,0 +1,48 @@
+.heading-primary {
+  font-size: 5rem;
+  color: #ffe4c4;
+  padding: 1.5rem 6rem;
+  background-color: #ccb69d;
+}
+
+*::selection {
+  background: #ffe4c4;
+}
+
+*::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 15px;
+  background: #c49054;
+}
+
+*::-webkit-scrollbar-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 15px;
+  background: #feca8b;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+}
+
+/* container and grid */
+.container {
+  max-width: 130rem;
+  background-color: inherit;
+  margin: 8.5rem auto 10.5rem auto;
+  padding: 5rem;
+  gap: 2rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.zero-col-gutter {
+  column-gap: 0 !important;
+}
